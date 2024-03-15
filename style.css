@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 5rem;
+}
+
+input{
+    width: 20rem;
+    height: 2rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.addTaskBtn{
+    background-color: greenyellow;
+    height: 2rem;
+    border-radius: 1rem;
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+
+.dltBtn{
+    margin-left: 1rem;
+    background-color: crimson;
+    border-radius: 8px;
+}
+
+li{
+    margin-bottom: 1rem;
+}
